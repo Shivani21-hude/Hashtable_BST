@@ -34,6 +34,9 @@ namespace HashtableDemo
             Console.WriteLine("0th index value: " + hash0);
             string hash7 = hash.Get("h");
             Console.WriteLine("7th index value: " + hash7);
+            hash.Remove("d");
+            Console.WriteLine("'platform' word is remove from paragraph");
+           
         }
     }
 }
